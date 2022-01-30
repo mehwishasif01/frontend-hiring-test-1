@@ -1,0 +1,20 @@
+<template>
+  <div class="home">
+    <h1>home</h1>
+    <!-- <img alt="Vue logo" src="../assets/logo.png" />
+    <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+// import ApiService from "../services/ApiService";
+export default {
+  name: "Home",
+  data () {
+    return {
+      token: null
+    }
+  },
+};
+</script>
